@@ -1,0 +1,184 @@
+body{
+	font-family: "微软雅黑";
+}
+.y_dbox{
+	width: 100%;
+	height: auto;
+}
+.y_nav1{
+	width: 100%;
+	overflow: hidden;
+}
+.y_nav{
+	margin: 0 auto;
+	width: 1400px;
+	height: 28px;
+    padding: 10px 60px 10px 60px;
+    background: url(../img/y_icon1.png) no-repeat 1316px center #e1e0e0;
+    line-height: 28px;
+	color: #000; 
+	font-size: 12px; 
+}
+.y_nav>a{
+	line-height: 28px;
+	color: #666; 
+	font-size: 12px;   
+}
+.y_nav>a.y_acur{
+	color: #00a38a;
+}
+.y_bannbox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.y_abanner{
+	width: 1400px;
+	height: 402px;
+	background: url(../img/y_bg2.jpg) center no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+.y_bannerdw{
+	position: absolute;
+    left: 68px;
+    top: 48px;
+    width: 326px;
+    padding: 30px 37px;
+    min-height: 240px;
+    background: url(../img/y_line2.png);
+    color: #fff;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.y_bannerdw>h3{
+	font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.y_bannerdw>span{
+	width: 36px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin-bottom: 20px;
+}
+.y_honyartop{
+	width: 100%;
+	/*height: 940px;*/
+	overflow-x: hidden;
+}
+.y_honyar{
+	width: 1400px;
+    position: relative;
+    padding-top: 90px;
+    background: #f2f2f2;
+    height: 940px;
+    margin: 0 auto;
+}
+.y_design{
+	width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.y_design>li{
+	width: 300px;
+    height: 400px;
+    float: left;
+    margin-right: 46px;
+    margin-bottom: 58px;
+}
+.y_design>li:hover p{
+	color: #00a88e;
+}
+.y_design>li:hover .y_deen{
+	color: #00a88e;
+}
+.y_design>li:hover span{
+	background:#00a88e
+}
+.y_design>li:hover .y_img1 img{
+	transform: scale(1.1);
+}
+.y_design>li>a{
+	display: block;
+    color: #818284;	
+}
+.y_img1{
+	width: 300px;
+    height: 220px;
+    overflow: hidden;
+}
+.y_img1>img{
+    transition: 0.5s transform ease;
+}
+.y_deg{
+	color: #818284;
+}
+.y_deg>.y_deen{
+	text-transform: uppercase;
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.y_deg>h5{
+	margin: 0;
+    color: #00a88e;
+    font-size: 14px;
+}
+.y_deg>span{
+	display: block;
+    width: 39px;
+    background: #818284;
+    height: 2px;
+    margin: 20px 0;
+}
+.y_design>li>a>p{
+	width: 300px;
+    height: 64px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 22px;
+}
+.y_ding{
+	position: absolute;
+    left: 30px;
+    width: 100px;
+    overflow: hidden;
+    color: #fff;
+    height: 180px;
+    top: 30px;
+}
+.y_ding>h5{
+    font-size: 14px;
+    width: 75px;
+    float: left;
+    font-weight: normal;
+    line-height: 16px;
+    color: #818284;
+}
+.y_ding>span{
+	display: block;
+    width: 10px;
+    float: left;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
