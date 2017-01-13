@@ -1,0 +1,222 @@
+.container>.header{
+	height: 79px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	z-index: 9999;
+}
+.header .logo{
+	height: 79px;
+	float: left;
+	padding: 0 35px 0 15px;
+}
+.header .logo img{
+	height: 100%;
+}
+.header .nav{
+	float: left;
+	min-width: 800px;
+}
+.header .nav>li{
+	float: left;
+	width: 20%;
+	position: relative;
+}
+.header .nav>li>a>span{
+	display: block;
+}
+.header .nav>li>a>span:nth-child(1){
+	padding-top: 22px;
+	color: #000;
+}
+.header .nav>li>a>span:nth-child(2){
+	font-size: 12px;
+}
+.header .nav>li>a{
+	display: block;
+	height: 79px;
+}
+.header .nav>li{
+	background: url(../img/yky_1_01.jpg) right bottom no-repeat;
+	transition: all .5s;
+}
+.header .nav>li:hover{
+	background: url(../img/yky_1_01.jpg) left bottom no-repeat;
+}
+.header .nav>li .div_a{
+	position: absolute;
+	top: 79px;
+	left: 0;
+	width: 503px;
+	background: url(../img/yky_1_02.png);
+	padding-top: 29px;
+	height: 245px;
+	z-index: 999;
+	display: none;
+}
+.header .nav>li .last{
+	width: 875px;
+	margin-left: -500px;
+}
+.header .nav li .div_a .nav_left{
+	float: left;
+	border-right:1px solid #d8d8d9;
+}
+.header .nav li .div_a .nav_left ul{
+	margin-left: 35px;
+	line-height: 24px;
+	width: 136px;
+	float: left;
+}
+.header .nav li .div_a .nav_left ul li>a{
+	font-size: 12px;
+	padding-left: 4px;
+	background: url(../img/yky_1_04.png) no-repeat left center;
+	transition: all .3s;
+}
+.header .nav li .div_a .nav_left .g_nav_ul>li>a{
+	background: none;
+	font-size: 14px;
+	padding-left: 0;
+	line-height: 28px;
+}
+.header .nav li .div_a .nav_left .g_nav_a{
+	line-height: 24px;
+	background: none;
+	font-size: 14px;
+	padding-left: 0;
+}
+.header .nav li .div_a .nav_left ul li>a:hover{
+	color: #0BAC93;
+}
+.header .nav li .div_a .nav_right{
+	padding: 0 35px;
+	float: left;
+}
+.header .nav li .div_a .nav_right .right_title{
+	line-height: 22px;
+	font-size: 12px;
+}
+.header .nav li .div_a .nav_right .right_title a{
+	display: block;
+	margin-top: 10px;
+	font-size: 12px;
+	transition: all .3s;
+}
+.header .nav li .div_a .nav_right .right_title a:hover{
+	color: #0BAC93;
+}
+.header .left{
+	float: left;
+	height: 79px;
+	position: relative;
+	padding-left: 35px;
+}
+.header .left img:nth-child(1){
+	height: 100%;
+}
+.header .left img:nth-child(2){
+	display: none;
+	z-index: 9999;
+	left: 0;
+	top: 79px;
+	position: absolute;
+}
+.header .left .weixin{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 75px;
+	bottom: 23px;
+}
+
+.xiaban>.bottom{
+	width: 1400px;
+	background: url(../img/yky_img3_3.jpg) no-repeat;
+	height: 322px;
+	position: relative;
+}
+.xiaban .bottom_bg{
+	height: 100%;
+	background: url(../img/yky_bg15.png);
+	padding-top: 100px;
+}
+.xiaban .bottom_bg ul li{
+	float: left;
+	margin-right: 56px;
+}
+.xiaban .bottom_bg ul li a{
+	display: block;
+	padding: 4px;
+	background: #fff;
+	width: 165px;
+	height: 157px;
+	color: #666;
+	overflow: hidden;
+	transition: all .3s;
+}
+.xiaban .bottom_bg ul li a div{
+	font-size: 12px;
+}
+.xiaban .bottom_bg ul li a div:nth-child(2){
+	line-height: 18px;
+	padding: 4px 0px 0px 4px;
+}
+.xiaban .bottom_bg ul li a img{
+	width: 100%;
+}
+.xiaban .bottom_bg ul li a:hover{
+	background: #0bac93;
+	color: #fff;
+}
+.xiaban .lb2{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xiaban .lb2 .lunbo2{
+	position: relative;
+}
+.xiaban .lb2 ul{
+	position: absolute;
+}
+.xiaban .lb2 ul li:last-child{
+	margin-right: 0;
+}
+.xiaban .lb2 .lb2_left,.xiaban .lb2 .lb2_right{
+	float: left;
+	margin-top: 46px;
+}
+.xiaban .lb2 .lb2_left{
+	margin-right: 24px;
+}
+.xiaban .lb2 .lb2_right{
+	margin-left: 24px;
+}
+.xiaban .lb2 .lb2_left a{
+	display: block;
+	background: url(../img/yky_img3_left.png) no-repeat left bottom;
+	width: 25px;
+	height: 51px;
+	transition: all .5s;
+}
+.xiaban .lb2 .lb2_left a:hover{
+	background: url(../img/yky_img3_left1.png) no-repeat left bottom;
+}
+.xiaban .lb2 .lb2_right a{
+	display: block;
+	background: url(../img/yky_img3_right.png) no-repeat left bottom;
+	width: 25px;
+	height: 51px;
+	transition: all .5s;
+}
+.xiaban .lunbo2{
+	float: left;
+	width: 900px;
+	min-height: 158px;
+	overflow: hidden;
+}
+.xiaban .lb2 .lb2_right a:hover{
+	background: url(../img/yky_img3_right1.png) no-repeat left bottom;
+}
